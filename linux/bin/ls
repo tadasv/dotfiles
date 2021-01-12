@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ls=/usr/bin/ls
+
+exec $ls --color=auto "$@"
