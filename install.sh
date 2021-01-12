@@ -1,3 +1,3 @@
 #!/bin/sh
 
-stow -t $HOME linux
+stow -t "$HOME" linux
