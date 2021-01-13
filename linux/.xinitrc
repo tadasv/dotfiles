@@ -3,6 +3,9 @@
 xset r rate 200 30
 xrdb /home/tadas/.Xresources
 
+# remap capslock to ctrl
+setxkbmap -option ctrl:nocaps
+
 # ~/.fehbg &
 # xsetroot -fg '#233' -bg '#233' -solid '#233'
 

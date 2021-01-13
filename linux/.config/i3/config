@@ -70,8 +70,8 @@ bindsym $mod+Shift+q kill
 
 # bindsym $mod+space focus mode_toggle
 
-bindsym $mod+Shift+d split vertical ; exec i3-sensible-terminal 
-bindsym $mod+d split horizontal ; exec i3-sensible-terminal 
+bindsym $mod+Shift+d split vertical ; exec urxvt
+bindsym $mod+d split horizontal ; exec urxvt
 bindsym $mod+f fullscreen toggle
 
 bindsym $mod+Shift+m floating enable; sticky enable; resize shrink width 10000px; resize grow width 191px; resize shrink height 10000px; resize grow height 150px; move position 1632px 954px

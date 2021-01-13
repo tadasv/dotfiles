@@ -13,8 +13,8 @@ Xft.hintstyle: hintfull
 !URxvt.font: -*-tamsyn-*-*-*-*-16-*-*-*-*-*-*-*
 !URxvt.font: -*-tamzen-*-*-*-*-20-*-*-*-*-*-*-*
 !URxvt*font: -misc-fixed-bold-r-normal--15------iso8859-15
+URxvt*font: -misc-fixed-medium-r-normal-*-15------iso8859-15
 URxvt.scrollBar: false
-URxvt*inheritPixmap: true
 
 xterm*Font: -misc-fixed-medium-r-normal-*-15------iso8859-15
 !xterm*Font: xft:terminus:pixelsize=12
