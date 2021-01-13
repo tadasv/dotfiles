@@ -1,0 +1,14 @@
+browser "/home/tadas/bin/firefox/firefox --new-window=%u &"
+
+# unbind keys
+unbind-key ENTER
+unbind-key j
+unbind-key k
+unbind-key J
+unbind-key K
+
+# bind keys - vim style
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key h quit
