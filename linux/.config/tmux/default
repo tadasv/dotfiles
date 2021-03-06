@@ -6,7 +6,7 @@ set -g status-justify centre
 # set -g status-right ""
 set -g status-left-length 100
 #set -g status-left " #(head -1 ~/.status) "
-set -g status-right "%m/%d/%Y, %-l:%M:%S%p %Z%0z"
+set -g status-right "%m/%d/%Y, %-l:%M:%S%p %Z%0z #(pomo status)"
 set -g status-right-style "fg=#665c54"
 #set -g status-left-style "fg=#504947"
 # set -g window-status-format ""
@@ -14,8 +14,8 @@ set -g status-right-style "fg=#665c54"
 
 # color the pane borders nearly invisible
 # (when not using hacked tmux without them)
-set -g pane-border-style "fg=#111111"
-set -g pane-active-border-style "fg=#111111"
+set -g pane-border-style "fg=#222222"
+set -g pane-active-border-style "fg=#222222"
 
 
 # vi for copy mode

@@ -13,17 +13,18 @@ Xft.hintstyle: hintfull
 !URxvt.font: -*-tamsyn-*-*-*-*-16-*-*-*-*-*-*-*
 !URxvt.font: -*-tamzen-*-*-*-*-20-*-*-*-*-*-*-*
 !URxvt*font: -misc-fixed-bold-r-normal--15------iso8859-15
-URxvt*font: -misc-fixed-medium-r-normal-*-15------iso8859-15
+URxvt*font: -misc-fixed-bold-r-normal-*-15------iso8859-15
 URxvt.scrollBar: false
 
-xterm*Font: -misc-fixed-medium-r-normal-*-15------iso8859-15
+xterm*Font: -misc-fixed-bold-r-normal-*-15------iso8859-15
 !xterm*Font: xft:terminus:pixelsize=12
 
 !
 ! Generated with :
 ! XRDB2Xreources.py
 !
-*.foreground:  #fffaf4
+*.foreground:  #c0c0c0
+!*.foreground:  #fffaf4
 *.background:  #0e1019
 *.cursorColor: #ff0018
 !
