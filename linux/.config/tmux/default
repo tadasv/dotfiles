@@ -6,7 +6,7 @@ set -g status-justify centre
 # set -g status-right ""
 set -g status-left-length 100
 #set -g status-left " #(head -1 ~/.status) "
-set -g status-right "%m/%d/%Y, %-l:%M:%S%p %Z%0z #(pomo status)"
+set -g status-right "#(pomo status) %m/%d/%Y, %-l:%M:%S%p %Z%0z"
 set -g status-right-style "fg=#665c54"
 #set -g status-left-style "fg=#504947"
 # set -g window-status-format ""

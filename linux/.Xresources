@@ -13,10 +13,11 @@ Xft.hintstyle: hintfull
 !URxvt.font: -*-tamsyn-*-*-*-*-16-*-*-*-*-*-*-*
 !URxvt.font: -*-tamzen-*-*-*-*-20-*-*-*-*-*-*-*
 !URxvt*font: -misc-fixed-bold-r-normal--15------iso8859-15
-URxvt*font: -misc-fixed-bold-r-normal-*-15------iso8859-15
+!URxvt*font: -misc-fixed-bold-r-normal-*-15------iso8859-15
+URxvt*font: xft:Noto Mono:medium:size=11, xft:Noto Color Emoji:size=11
 URxvt.scrollBar: false
 
-xterm*Font: -misc-fixed-bold-r-normal-*-15------iso8859-15
+!xterm*Font: -misc-fixed-bold-r-normal-*-15------iso8859-15
 !xterm*Font: xft:terminus:pixelsize=12
 
 !

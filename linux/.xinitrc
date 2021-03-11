@@ -25,4 +25,9 @@ if [ -x /usr/bin/dunst ]; then
 	/usr/bin/dunst &
 fi
 
+if [ -x $HOME/bin/pomomon.sh ] ; then
+	# starts pomodoro monitor
+	$HOME/bin/pomomon.sh &
+fi
+
 exec i3
