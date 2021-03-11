@@ -17,9 +17,12 @@ set -g status-right-style "fg=#665c54"
 set -g pane-border-style "fg=#222222"
 set -g pane-active-border-style "fg=#222222"
 
-
 # vi for copy mode
 setw -g mode-keys vi
+bind p paste-buffer
+bind-key -T copy-mode-vi v send-keys -X begin-selection
+bind-key -T copy-mode-vi y send-keys -X copy-selection
+bind-key -T copy-mode-vi r send-keys -X rectangle-toggle
 
 # vi for command status
 set -g status-keys vi
