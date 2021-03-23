@@ -19,6 +19,10 @@ if [ -x /usr/bin/autocutsel ]; then
 	autocutsel -selection PRIMARY -fork
 fi
 
+if [ -x /usr/bin/xmms2d ]; then
+	/usr/bin/xmms2d &
+fi
+
 if [ -x /usr/bin/dunst ]; then
 	# starts notification daemon so we can receive notification sent
 	# with notify-send
