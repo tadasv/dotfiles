@@ -51,7 +51,7 @@ endfunction
 
 
 
-colorscheme wombat256i
+" colorscheme wombat256i
 " Configure the rest
 syntax on
 set equalalways
