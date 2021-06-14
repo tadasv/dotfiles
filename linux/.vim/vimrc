@@ -67,6 +67,8 @@ set backspace=indent,eol,start
 set wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.a
 set directory=~/.vim/swap,~/tmp,/var/tmp/,tmp
 set autowrite
+set number
+set relativenumber
 
 let mapleader=","
 "" Clear current search
