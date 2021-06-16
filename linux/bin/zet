@@ -40,7 +40,7 @@ add() {
   echo "Adding: $line"
   git add -A "$dir"
   git commit -m "$line"
-  git push
+  git push origin master
 }
 
 case "$1" in
