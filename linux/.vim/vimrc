@@ -8,7 +8,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'flazz/vim-colorschemes'
+" Plugin 'flazz/vim-colorschemes'
 " Plugin 'wincent/command-t'
 " Plugin 'groenewege/vim-less'
 Plugin 'pangloss/vim-javascript'
@@ -51,13 +51,13 @@ endfunction
 
 
 
-" colorscheme wombat256i
+colorscheme peachpuff
 " Configure the rest
 syntax on
 set equalalways
 set splitright splitbelow
 set hidden
-set hlsearch
+set nohlsearch
 set nofoldenable
 set nospell
 set autoindent

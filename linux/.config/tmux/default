@@ -4,6 +4,7 @@ set -g status-style "fg=#504947"
 set -g status-justify centre
 set -g default-terminal "screen-256color"
 
+
 # set -g status-right ""
 set -g status-left-length 100
 #set -g status-left " #(head -1 ~/.status) "
