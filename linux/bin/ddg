@@ -1,0 +1,6 @@
+#!/bin/bash
+
+url="https://lite.duckduckgo.com/lite/?q=$@"
+url=$(echo $url | sed 's/ /%20/g')
+
+exec links $url
