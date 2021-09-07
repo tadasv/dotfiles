@@ -27,4 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export EDITOR=vim
-export PATH=$PATH:/usr/local/go/bin:$HOME/.cargo/bin
+export PATH=$PATH:/usr/local/go/bin:$HOME/.cargo/bin:$HOME/go/bin
