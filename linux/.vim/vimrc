@@ -51,7 +51,7 @@ endfunction
 
 
 
-colorscheme peachpuff
+" colorscheme peachpuff
 " Configure the rest
 syntax on
 set equalalways
@@ -113,3 +113,25 @@ augroup Python
         let python_highlight_all = 1
         autocmd FileType python nnoremap <leader>y :0,$!yapf<Cr>
 augroup END
+
+" Note taking stuff
+
+command ZMain :e z/2021100901
+command ZReferences call <SID>find_references()
+command Zet execute ':e '.system('./zet-name')
+command ZInsert call <SID>insert_note_reference_and_create_note()
+
+function! s:insert_note_reference_and_create_note() abort
+  let l:note_reference = substitute(system('./zet-name'), '\n\+', '', 'g')
+  execute 'normal! a'.l:note_reference
+  execute ':split '.l:note_reference
+endfunction
+
+function! s:find_references() abort
+    let l:filename = bufname("%")
+    execute ':new'
+    execute ':read !grep -r '.l:filename
+endfunction
+
+au BufNewFile z/* set filetype=markdown
+au BufRead z/* set filetype=markdown
