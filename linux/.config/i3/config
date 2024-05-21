@@ -59,8 +59,9 @@ bindsym $mod+backslash scratchpad show
 # bindsym $mod+Return exec i3-sensible-terminal 
 
 # start web browser
-bindsym $mod+w exec /home/tadas/bin/firefox/firefox
-bindsym $mod+shift+w exec /home/tadas/bin/firefox/firefox --new-instance --ProfileManager
+bindsym $mod+w exec google-chrome
+#bindsym $mod+w exec /home/tadas/bin/firefox/firefox
+#bindsym $mod+shift+w exec /home/tadas/bin/firefox/firefox --new-instance --ProfileManager
 bindsym $mod+p exec dbeaver
 
 bindsym $mod+g exec dmenu_run

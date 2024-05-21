@@ -1,9 +1,9 @@
 #!/bin/sh
 #
 xset r rate 200 30
-xrdb /home/tadas/.Xresources
+xrdb /home/vptr/.Xresources
 
-xrandr --output HDMI-A-0 --rotate right
+#xrandr --output HDMI-A-0 --rotate right
 
 # remap capslock to ctrl
 setxkbmap -option ctrl:nocaps

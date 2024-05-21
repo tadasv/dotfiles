@@ -26,5 +26,5 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export EDITOR=vim
+export EDITOR=nvim
 export PATH=$PATH:/usr/local/go/bin:$HOME/.cargo/bin:$HOME/go/bin:$HOME/Documents/Notes
